@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugos on 数と式</title>
+    <link>https://ritosonn.github.io/su-shiki/hugo/</link>
+    <description>Recent content in Hugos on 数と式</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 04 Apr 2019 23:50:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://ritosonn.github.io/su-shiki/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugoの使い方</title>
+      <link>https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/</link>
+      <pubDate>Thu, 04 Apr 2019 23:50:52 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/</guid>
+      <description>&lt;p&gt;Hugoの使い方を自分用にまとめたメモ。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugoで数式</title>
+      <link>https://ritosonn.github.io/su-shiki/hugo/hugo-math/</link>
+      <pubDate>Wed, 03 Apr 2019 23:45:40 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/hugo/hugo-math/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で数式を書くためのメモ。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
