@@ -13,10 +13,10 @@
     
     <item>
       <title>移送の定義</title>
-      <link>https://ritosonn.github.io/su-shiki/group/transfer-definition/</link>
+      <link>https://ritosonn.github.io/su-shiki/group-theory/transfer-definition/</link>
       <pubDate>Fri, 05 Apr 2019 21:33:16 +0900</pubDate>
       
-      <guid>https://ritosonn.github.io/su-shiki/group/transfer-definition/</guid>
+      <guid>https://ritosonn.github.io/su-shiki/group-theory/transfer-definition/</guid>
       <description>&lt;p&gt;（有限とは限らない&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;）群&lt;code&gt;$G$&lt;/code&gt;とその部分群&lt;code&gt;$H$&lt;/code&gt;、その正規部分群&lt;code&gt;$K$&lt;/code&gt;をとり、&lt;code&gt;$H/K$&lt;/code&gt;が可換になるとする（たとえば交換子群&lt;code&gt;$K=[H,H]$&lt;/code&gt;など）。このとき、&lt;strong&gt;移送&lt;/strong&gt;とよばれる写像&lt;code&gt;$V\colon G\to H/K$&lt;/code&gt;が定義できるということをみる。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
     </item>
     
