@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>数と式</title>
-    <link>https://ritosonn.github.io/su-shiki/</link>
-    <description>Recent content on 数と式</description>
+    <title>群論 on 数と式</title>
+    <link>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</link>
+    <description>Recent content in 群論 on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 05 Apr 2019 21:33:16 +0900</lastBuildDate>
     
-	<atom:link href="https://ritosonn.github.io/su-shiki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,24 +18,6 @@
       
       <guid>https://ritosonn.github.io/su-shiki/group/transfer-definition/</guid>
       <description>&lt;p&gt;（有限とは限らない&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;）群&lt;code&gt;$G$&lt;/code&gt;とその部分群&lt;code&gt;$H$&lt;/code&gt;、その正規部分群&lt;code&gt;$K$&lt;/code&gt;をとり、&lt;code&gt;$H/K$&lt;/code&gt;が可換になるとする（たとえば交換子群&lt;code&gt;$K=[H,H]$&lt;/code&gt;など）。このとき、&lt;strong&gt;移送&lt;/strong&gt;とよばれる写像&lt;code&gt;$V\colon G\to H/K$&lt;/code&gt;が定義できるということをみる。&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugoの使い方</title>
-      <link>https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/</link>
-      <pubDate>Thu, 04 Apr 2019 23:50:52 +0900</pubDate>
-      
-      <guid>https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/</guid>
-      <description>&lt;p&gt;Hugoの使い方を自分用にまとめたメモ。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hugoで数式</title>
-      <link>https://ritosonn.github.io/su-shiki/hugo/hugo-math/</link>
-      <pubDate>Wed, 03 Apr 2019 23:45:40 +0900</pubDate>
-      
-      <guid>https://ritosonn.github.io/su-shiki/hugo/hugo-math/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;で数式を書くためのメモ。&lt;/p&gt;</description>
     </item>
     
   </channel>

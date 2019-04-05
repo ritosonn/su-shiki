@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/group/transfer-definition/</loc>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/</loc>
     <lastmod>2019-04-04T23:50:52+09:00</lastmod>
   </url>
@@ -18,6 +23,24 @@
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/group/</loc>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/hugo/</loc>
+    <lastmod>2019-04-04T23:50:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/categories/hugo/</loc>
+    <lastmod>2019-04-04T23:50:52+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/hugo/</loc>
     <lastmod>2019-04-04T23:50:52+09:00</lastmod>
     <priority>0</priority>
@@ -25,12 +48,31 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/tags/</loc>
+    <lastmod>2019-04-04T23:50:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-04-04T23:50:52+09:00</lastmod>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E6%9C%89%E9%99%90%E7%BE%A4/</loc>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81/</loc>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</loc>
+    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
     <priority>0</priority>
   </url>
   

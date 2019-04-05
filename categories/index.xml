@@ -10,5 +10,23 @@
 	<atom:link href="https://ritosonn.github.io/su-shiki/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Hugo</title>
+      <link>https://ritosonn.github.io/su-shiki/categories/hugo/</link>
+      <pubDate>Thu, 04 Apr 2019 23:50:52 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>群論</title>
+      <link>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</link>
+      <pubDate>Fri, 05 Apr 2019 21:33:16 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Hugoの使い方</title>
-  <meta property="og:title" content="Hugoの使い方" />
-  <meta name="twitter:title" content="Hugoの使い方" />
+  <title>移送の定義</title>
+  <meta property="og:title" content="移送の定義" />
+  <meta name="twitter:title" content="移送の定義" />
   
 
   
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="数と式" />
-  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/" />
+  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/group/transfer-definition/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -76,80 +76,95 @@
 
 <article class="p-article">
   <header>
-    <h1>Hugoの使い方</h1>
+    <h1>移送の定義</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2019-04-04T23:50:52&#43;09:00">
-          Apr 4, 2019
+        <time datetime="2019-04-05T21:33:16&#43;09:00">
+          Apr 5, 2019
         </time>
       </div>
       
-      <a href="https://ritosonn.github.io/su-shiki/tags/hugo" class="c-tag">Hugo</a>
+      <a href="https://ritosonn.github.io/su-shiki/tags/%E6%9C%89%E9%99%90%E7%BE%A4" class="c-tag">有限群</a>
+      
+      <a href="https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81" class="c-tag">移送</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>Hugoの使い方を自分用にまとめたメモ。</p>
+    <p>（有限とは限らない<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>）群<code>$G$</code>とその部分群<code>$H$</code>、その正規部分群<code>$K$</code>をとり、<code>$H/K$</code>が可換になるとする（たとえば交換子群<code>$K=[H,H]$</code>など）。このとき、<strong>移送</strong>とよばれる写像<code>$V\colon G\to H/K$</code>が定義できるということをみる。<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup></p>
 
-<h3 id="初期設定">初期設定</h3>
+<h3 id="定義">定義</h3>
 
-<ul>
-<li>自分はGithub Pagesで公開されるように設定した</li>
-<li>テーマは<a href="https://github.com/mismith0227/hugo_theme_pickles">こちら</a>をお借りしています。
+<p><code>$T\subset G$</code>を右剰余類に関する完全代表系とする。すなわち
+<code>\[G=\coprod_{t\in T}tH\]</code>
+と表したとき、各<code>$x\in G,t\in T$</code>に対して（<code>$xt\in t'H$</code>となる<code>$t'$</code>が一意に存在するので）ある<code>$t'\in T,h\in H$</code>が一意に存在して<code>$xt=t'h$</code>が成り立つ。この対応を<code>$f_x^T(t)=t',h_x^T(t)=h$</code>と書くことにして、<code>$V\colon G\to H/K$</code>を
+<code>\[V(x):=\prod_{t\in T} h_x^T(t)K\]</code>
+で定める（<code>$H/K$</code>はアーベル群なので、この定義は右辺の積の順番には依らない）。このとき次の命題を示したい。</p>
 
-<ul>
-<li>トップページがそのままだと動かないっぽい（とりあえず<code>layouts/_default/list.html</code>と<code>layouts/index.html</code>でページネーション処理を消しています）</li>
-</ul></li>
-<li>（初期設定の詳細はあとで書くはず）</li>
-</ul>
+<p>命題1：この写像は<code>$T$</code>に依らずに定まる準同型である。</p>
 
-<h3 id="記事の更新">記事の更新</h3>
+<h3 id="f-x-t-h-x-t-の性質"><code>$f_x^T, h_x^T$</code>の性質</h3>
 
-<ul>
-<li>新規作成は<code>hugo new [ディレクトリ名]/[ファイル名].md</code>
+<p>この記事ではまず<code>$f_x^T, h_x^T$</code>が満たす関係式を求める。</p>
 
-<ul>
-<li>階層がある程度深くてもちゃんと<code>content</code>配下のその場所に作ってくれる</li>
-</ul></li>
-<li><code>hugo server -D</code>すると<code>localhost:1313</code>から見られる
+<p>補題2：<code>$f_x^T\colon T\to T$</code>はT上の置換である。</p>
 
-<ul>
-<li><code>-D</code>は下書きを表示するオプション</li>
-</ul></li>
-<li>公開する記事のメタ情報を<code>draft: false</code>にする</li>
-<li><code>hugo</code>で静的サイト生成</li>
-<li>あとはgithubで公開するだけ（詳細はあとで）</li>
-</ul>
+<p>証明：（単射性）<code>$f_x^T(t_1)=f_x^T(t_2)$</code>とすると、</p>
 
-<h3 id="記事の書き方">記事の書き方</h3>
+<p><code>\begin{align*}xt_1&amp;=f_x^T(t_1)h_x^T(t_1)\\&amp;=f_x^T(t_2)h_x^T(t_1)\\&amp;=f_x^T(t_2)h_x^T(t_2)h_x^T(t_2)^{-1}h_x^T(t_1)\\&amp;=xt_2h_x^T(t_2)^{−1}h_x^T(t_1)\end{align*}</code></p>
 
-<ul>
-<li>基本的にmarkdownが使える</li>
-<li>数式は<a href="https://ritosonn.github.io/su-shiki/hugo/hugo-math/">こちら</a></li>
+<p>なので<code>$t_1=t_2h′$</code>（ただし<code>$h′=hTx(t2)−1hTx(t1)\in H$</code>）である。<code>$t1,t2$</code>はHの右剰余類の完全代表系なので、<code>$t1=t2$</code>である。</p>
 
-<li><p>脚注はこんな感じ<sup class="footnote-ref" id="fnref:a"><a href="#fn:a">1</a></sup></p>
+<p>（全射性）任意の<code>$t′\in T$</code>に対して、<code>$t:=x^{−1}t′$</code>とおけば、<code>$xt=t′=t′1\in t′H$</code>なので<code>$f_x^T(t)=t′$</code>である。［補題2の証明終わり］</p>
 
-<pre><code class="language-md">脚注はこんな感じ[^a]
-[^a]: ふつうのmarkdownより強い
-</code></pre></li>
+<p>補題3：<code>$f_{xy}^T(t)=f_x^T(f_y^T(t)),h_{xy}^T(t)=h_x^T(f_y^T(t))h_y^T(t)$</code>が成り立つ。</p>
 
-<li><p>記事の「続きから」は<code>&lt;!--more--&gt;</code>を置く（トップページなどで反映される）</p></li>
+<p>証明：定義から<code>$f_x^T(f_y^T(t))h_x^T(f_y^T(t))h_y^T(t)=xf_y^T(t)h_y^T(t)=xyt$</code>となるが、このように書き表す方法が一意的だったので主張が従う。［補題3の証明終わり］</p>
 
-<li><p>同じサイト内のリンクは<code>&lt; ref &quot;[ディレクトリ名]/[ファイル名].md&quot;&gt;</code>を中かっこ（<code>{}</code>）2つで囲むと自動で生成される</p>
+<p>補題4：<code>$S,T\subset G$</code>を右剰余類に関する完全代表系として、<code>$\varphi\colon T\to S$</code>を「同じ剰余類の代表元に移す写像」（つまり<code>$\{\varphi(t)\}=S\cap tH$</code>で定まる写像）とし、<code>$h\colon T\to H$</code>を<code>$\varphi(t)=th(t)$</code>で定めると、<code>$h_x^S(\varphi(t))=h(f_x^T(t))^{-1}h_x^T(t)h(t)$</code>が成り立つ。</p>
 
-<ul>
-<li>実際に書くやつをそのまま書こうとするとサイト生成時にそこも書き変わってしまう</li>
-</ul></li>
-</ul>
+<p>証明：まず次の等式が成り立つ。</p>
+
+<p><code>\begin{align*}x\varphi(t)&amp;=xth(t)\\&amp;=f_x^T(t)h_x^T(t)h(t)\\&amp;=f_x^T(t)h(f_x^T(t))h(f_x^T(t))^{-1}h_x^T(t)h(t)\\&amp;=\varphi(f_x^T(t))h(f_x^T(t))^{-1}h_x^T(t)h(t)\end{align*}</code></p>
+
+<p>この式で<code>$\varphi(f_x^T(t))\in S, h(f_x^T(t))^{-1}h_x^T(t)h(t)\in H$</code>なので、このように書き表す方法が一意的であることから主張が従う。［補題4の証明終わり］</p>
+
+<h3 id="命題1の証明">命題1の証明</h3>
+
+<h5 id="準同型性">（準同型性）</h5>
+
+<p>補題2（<code>$f_y^T$</code>は置換）と補題3（<code>$h_{xy}^T(t)=h_x^T(f_y^T(t))h_y^T(t)$</code>）を用いると、</p>
+
+<p><code>\begin{align*}V(xy)&amp;=\prod_{t\in T}h_{xy}^T(t)K\\&amp;=\prod_{t\in T}h_x^T(f_y^T(t))h_y^T(t)K\\&amp;=\prod_{t\in T}h_x^T(f_y^T(t))K\prod_{t\in T}h_y^T(t)K\\&amp;=\prod_{t\in T}h_x^T(t)K\prod_{t\in T}h_y^T(t)K\\&amp;=V(x)V(y)\end{align*}</code></p>
+
+<p>が成り立つ。</p>
+
+<h5 id="t-についてwell-definedであること">（<code>$T$</code>についてwell-definedであること）</h5>
+
+<p>補題2（<code>$f_y^T$</code>は置換）と補題4（<code>$h_x^S(\varphi(t))=h(f_x^T(t))^{-1}h_x^T(t)h(t)$</code>）を用いると、</p>
+
+<p><code>\begin{align*}\prod_{s\in S} h_x^S(s)K&amp;=\prod_{t\in T} h_x^S(\varphi(t))K\\&amp;=\prod_{t\in T} h(f_x^T(t))^{-1}h_x^T(t)h(t)K\\&amp;=\prod_{t\in T} h(f_x^T(t))^{-1}K\prod_{t\in T} h_x^T(t)K\prod_{t\in T} h(t)K\\&amp;=\left(\prod_{t\in T} h(f_x^T(t))K\right)^{-1}\prod_{t\in T} h_x^T(t)K\left(\prod_{t\in T} h(t)K\right)\\&amp;=\prod_{t\in T} h_x^T(t)K\end{align*}</code></p>
+
+<p>が成り立つ。</p>
+
+<p>したがって命題1が成り立つ。［命題1の証明終わり］</p>
+
+<h3 id="参考文献">参考文献</h3>
+
+<p>この記事は[suzuki]のp522-523から証明を一部補ったものです。</p>
+
+<p>[suzuki]鈴木通夫, 「群論 下」, 現代数学19, 岩波書店, 1978</p>
 <div class="footnotes">
 
 <hr />
 
 <ol>
-<li id="fn:a">ふつうのmarkdownより強い
- <a class="footnote-return" href="#fnref:a"><sup>[return]</sup></a></li>
+<li id="fn:1">このサイトではおもに有限群を考えたいので、有限群とは限らない群の話をするときは記事の最初でことわるようにしたい
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">この写像は有限単純群の構造を調べるときに有用である、ということを述べていくつもり
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
 </ol>
 </div>
   </section>
@@ -159,31 +174,16 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://ritosonn.github.io/su-shiki/group/transfer-definition/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://ritosonn.github.io/su-shiki/hugo/hugo-math/">Older</a>
+          <a href="https://ritosonn.github.io/su-shiki/hugo/hugo-howtouse/">Older</a>
           
         </div>
       </div>
     </nav>
     
-
-<section class="p-related">
-  <h3>See Also</h3>
-  <ul id="slider" class="p-related__list">
-    
-    <li class="p-related__item js-related__item">
-      <a href="/su-shiki/hugo/hugo-math/"
-        >
-        <span>Hugoで数式</span>
-      </a>
-    </li>
-    
-  </ul>
-</section>
 
 
     
