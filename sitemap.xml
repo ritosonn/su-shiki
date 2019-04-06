@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/anime/endro/</loc>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/hugo/hugo-diagram/</loc>
     <lastmod>2019-04-06T01:21:39+09:00</lastmod>
   </url>
@@ -20,6 +25,18 @@
   <url>
     <loc>https://ritosonn.github.io/su-shiki/hugo/hugo-math/</loc>
     <lastmod>2019-04-03T23:45:40+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/2019%E5%86%AC/</loc>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/anime/</loc>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -53,13 +70,25 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/tags/</loc>
-    <lastmod>2019-04-06T01:21:39+09:00</lastmod>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-04-06T01:21:39+09:00</lastmod>
+    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   

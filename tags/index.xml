@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Apr 2019 01:21:39 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 00:59:07 +0900</lastBuildDate>
     
 	<atom:link href="https://ritosonn.github.io/su-shiki/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2019冬</title>
+      <link>https://ritosonn.github.io/su-shiki/tags/2019%E5%86%AC/</link>
+      <pubDate>Sun, 07 Apr 2019 00:59:07 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/tags/2019%E5%86%AC/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -17,6 +26,15 @@
       <pubDate>Sat, 06 Apr 2019 01:21:39 +0900</pubDate>
       
       <guid>https://ritosonn.github.io/su-shiki/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>アニメ</title>
+      <link>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</link>
+      <pubDate>Sun, 07 Apr 2019 00:59:07 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</guid>
       <description></description>
     </item>
     

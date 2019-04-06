@@ -6,10 +6,19 @@
     <description>Recent content on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 06 Apr 2019 01:21:39 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2019 00:59:07 +0900</lastBuildDate>
     
 	<atom:link href="https://ritosonn.github.io/su-shiki/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「えんどろ～！」感想</title>
+      <link>https://ritosonn.github.io/su-shiki/anime/endro/</link>
+      <pubDate>Sun, 07 Apr 2019 00:59:07 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/anime/endro/</guid>
+      <description>&lt;p&gt;「&lt;a href=&#34;endro.jp&#34;&gt;えんどろ～！&lt;/a&gt;」の最終話を見たので、その感想です。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugoで図式</title>
