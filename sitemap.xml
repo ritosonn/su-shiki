@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/group-theory/transfer-example/</loc>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/anime/endro/</loc>
     <lastmod>2019-04-07T00:59:07+09:00</lastmod>
   </url>
@@ -46,7 +51,7 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/group-theory/</loc>
-    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,8 +92,14 @@
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E4%BE%8B/</loc>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -100,13 +111,13 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81/</loc>
-    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</loc>
-    <lastmod>2019-04-05T21:33:16+09:00</lastmod>
+    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
     <priority>0</priority>
   </url>
   

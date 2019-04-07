@@ -6,10 +6,19 @@
     <description>Recent content in 移送 on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Apr 2019 21:33:16 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 00:29:03 +0900</lastBuildDate>
     
 	<atom:link href="https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>移送の例</title>
+      <link>https://ritosonn.github.io/su-shiki/group-theory/transfer-example/</link>
+      <pubDate>Mon, 08 Apr 2019 00:29:03 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/group-theory/transfer-example/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ritosonn.github.io/su-shiki/group-theory/transfer-definition/&#34;&gt;移送&lt;/a&gt;はその群が「どれくらい可換か」を測る道具の一つとして使うことができます。それをみるために、まずは可換群に対して移送が単にべき乗で計算できることを確認して、可換でないいくつかの群についても移送を計算してみます。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>移送の定義</title>
