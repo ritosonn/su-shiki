@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>焦点部分群</title>
+      <link>https://ritosonn.github.io/su-shiki/group-theory/focal-subgroup/</link>
+      <pubDate>Sun, 07 Apr 2019 03:10:42 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/group-theory/focal-subgroup/</guid>
+      <description>&lt;p&gt;可換群は「移送がべき乗になる群」の例（&lt;a href=&#34;https://ritosonn.github.io/su-shiki/group-theory/transfer-example/&#34;&gt;参照&lt;/a&gt;）ですが、そのような移送の作り方として&lt;strong&gt;焦点部分群&lt;/strong&gt;で割った剰余群への移送があります。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>移送の定義</title>
       <link>https://ritosonn.github.io/su-shiki/group-theory/transfer-definition/</link>
       <pubDate>Fri, 05 Apr 2019 21:33:16 +0900</pubDate>

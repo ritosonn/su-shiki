@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>「えんどろ～！」感想</title>
-  <meta property="og:title" content="「えんどろ～！」感想" />
-  <meta name="twitter:title" content="「えんどろ～！」感想" />
+  <title>焦点部分群</title>
+  <meta property="og:title" content="焦点部分群" />
+  <meta name="twitter:title" content="焦点部分群" />
   
 
   
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="数と式" />
-  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/anime/endro/" />
+  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/group-theory/focal-subgroup/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -78,51 +78,30 @@
 
 <article class="p-article">
   <header>
-    <h1>「えんどろ～！」感想</h1>
+    <h1>焦点部分群</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2019-04-07T00:59:07&#43;09:00">
+        <time datetime="2019-04-07T03:10:42&#43;09:00">
           Apr 7, 2019
         </time>
       </div>
       
-      <a href="https://ritosonn.github.io/su-shiki/tags/2019%E5%86%AC" class="c-tag">2019冬</a>
-      
-      <a href="https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1" class="c-tag">アニメ</a>
+      <a href="https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81" class="c-tag">移送</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>「<a href="endro.jp">えんどろ～！</a>」の最終話を見たので、その感想です。</p>
+    <p>可換群は「移送がべき乗になる群」の例（<a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">参照</a>）ですが、そのような移送の作り方として<strong>焦点部分群</strong>で割った剰余群への移送があります。</p>
 
-<h3 id="日常系ファンタジーとはなにか">日常系ファンタジーとはなにか</h3>
+<p>群<code>$G$</code>の部分群<code>$H$</code>が与えられたとき、<code>\[H^\ast=H^\ast_G=\mathrm{Foc}_G(H):=\langle h^{-1}h'\mid h'=h^g, \ h,h'\in H, \ g\in G\rangle\]</code>を<code>$H$</code>の焦点部分群という。</p>
 
-<p>一般に、「魔王がいて、勇者がいて、戦って倒して、それで平和になる」というファンタジーの典型と、<a href="http://www.yuyushiki.net/">ノーイベントグッドライフ</a>な日常系というカテゴリは相反するものだと思います。少なくとも「戦って倒す」はイベントだし、勇者は戦って倒すイベントがあることで勇者たり得るし、魔王は勇者に倒されるために存在する。そんな先入観を壊してくれるのがえんどろ～！という作品です。</p>
+<p>定理1: <code>$H^\ast\lhd H$</code>で、<code>$H/H^\ast$</code>は可換群である。</p>
 
-<p>えんどろ～！は最終回、「マオちゃんを泣かせるぐらいなら私は勇者でなくたっていい」とユーシャが勇者らしさ（の象徴である勇者の剣）を捨て、そのあとマオちゃんはちびちゃんに食べられることで魔王であるという性質を失って、めでたく日常に戻るという結末を迎えます。「魔王がいて、勇者がいて、<strong>戦わず倒さず</strong>、平和になる」ために、魔王らしさ・勇者らしさを与えるために転生した過去を1話の導入にして、魔王らしさとか勇者らしさを禊ぐ装置としてちびちゃんを出す、というのは言われてみればすごい単純なしくみですが、「戦って倒す」という根本的に見える部分を削るために必要なのは実はこれだけでした。</p>
+<p>定理2: <code>$H^\ast&lt;K&lt;H$</code>を満たす部分群<code>$K$</code>に対して、（<code>$K\lhd H$</code>で、<code>$H/K$</code>は可換群なので）移送を<code>$V\colon G\to H/K$</code>と書くと、任意の<code>$h\in H$</code>に対して<code>$V(h)=h^{[G:H]}K$</code>が成り立つ。</p>
 
-<p>あとは残りの2話から11話にかけて、勇者パーティーとマオちゃん・ローナ姫が繰り広げる日常を可能な限り丁寧に記述していくという構成で、1話ごとにきれいにまとまっていて（一応時系列になっているという程度で）各話のつながりはあまり強くありません。この連続性のなさは合わない人は合わないと思いますが、自分はこういうのを特に好んで見ていて、（自分のために作られたのでは…？）と思うくらいでした。</p>
-
-<p>そんなユーシャたちとの暮らしを最後に「そんなものばかばかしいほど楽しかったに決まっているじゃろうが！」と振り返るマオちゃん先生、（投げ込まれるという少々乱暴な形でしたが）ちゃんと魔王やめられてよかったなあ…って本当に思います。転生する前メイゴちゃんにやさしくしておいて本当によかった…</p>
-
-<h3 id="残された謎とか">残された謎とか</h3>
-
-<p>ちびちゃん、魔王と勇者という概念を消す存在としてこの作品で一番重要な役割だったわけですが、ここに意味を持たせようとすると<a href="https://www.madoka-magica.com/tv/index.html">キュゥべえ</a>になっちゃうわけですよね…。魔王と勇者みたいな固有な役割にとらわれないということと同じで、ちびちゃんみたいな謎に固執しないで「まあいっか」と受け流せること、こういうしなやかさが日常系の物語には重要なのだなあと思います。<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
-
-<p>まあ、散々伏線を張っておいていわゆる百合展開も期待させていたローナ姫がただの勇者オタクだったの、少しもったいない感じもしますがたぶん人々が二次創作でなんとかしてくれるでしょう。（本当？）</p>
-
-<p>最後まっすろな本が出てきて<a href="http://comic-girls.com/">こみっくがーるず</a>を思い出しました。主人公がピンク髪でcv.赤尾ひかるさんも同じですがキャラクターは本当に正反対で、声優さんの演じ分けすごいなあといつも思っています。</p>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:1">一方で「日常系アニメはちゃんと物理法則に従うべき」と思っていますが、この作品は日常系だけど「ファンタジー」なのでそのへんも許せるというか、うまくかみ合っているなあと思います。
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-</ol>
-</div>
+<p>（証明はあとで追記します）</p>
   </section>
   <footer>
     
@@ -130,17 +109,31 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://ritosonn.github.io/su-shiki/group-theory/focal-subgroup/">Newer</a>
+          <a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://ritosonn.github.io/su-shiki/hugo/hugo-diagram/">Older</a>
+          <a href="https://ritosonn.github.io/su-shiki/anime/endro/">Older</a>
           
         </div>
       </div>
     </nav>
     
+
+<section class="p-related">
+  <h3>See Also</h3>
+  <ul id="slider" class="p-related__list">
+    
+    <li class="p-related__item js-related__item">
+      <a href="/su-shiki/group-theory/transfer-definition/"
+        >
+        <span>移送の定義</span>
+      </a>
+    </li>
+    
+  </ul>
+</section>
 
 
     
