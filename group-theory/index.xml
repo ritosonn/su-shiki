@@ -6,10 +6,19 @@
     <description>Recent content in Group-theories on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:29:03 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 00:00:11 +0900</lastBuildDate>
     
 	<atom:link href="https://ritosonn.github.io/su-shiki/group-theory/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>部分群の部分群</title>
+      <link>https://ritosonn.github.io/su-shiki/group-theory/subgroup-of-subgroup/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:11 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/group-theory/subgroup-of-subgroup/</guid>
+      <description>&lt;p&gt;&lt;code&gt;$K&amp;lt;H&amp;lt;G$&lt;/code&gt;を部分群の列としたとき、たとえば「&lt;code&gt;$K\lhd G$&lt;/code&gt;ならば&lt;code&gt;$K\lhd H$&lt;/code&gt;」ですが逆は一般に成り立ちません。こういう部分群と正規部分群のちょっと紛らわしい例をまとめておきます。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>移送の例</title>

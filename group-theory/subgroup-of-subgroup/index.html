@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>焦点部分群</title>
-  <meta property="og:title" content="焦点部分群" />
-  <meta name="twitter:title" content="焦点部分群" />
+  <title>部分群の部分群</title>
+  <meta property="og:title" content="部分群の部分群" />
+  <meta name="twitter:title" content="部分群の部分群" />
   
 
   
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="数と式" />
-  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/group-theory/focal-subgroup/" />
+  <meta property="og:url" content="https://ritosonn.github.io/su-shiki/group-theory/subgroup-of-subgroup/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -78,32 +78,59 @@
 
 <article class="p-article">
   <header>
-    <h1>焦点部分群</h1>
+    <h1>部分群の部分群</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2019-04-07T03:10:42&#43;09:00">
-          Apr 7, 2019
+        <time datetime="2019-04-10T00:00:11&#43;09:00">
+          Apr 10, 2019
         </time>
       </div>
-      
-      <a href="https://ritosonn.github.io/su-shiki/tags/%E7%A7%BB%E9%80%81" class="c-tag">移送</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>可換群は「移送がべき乗になる群」の例（<a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">参照</a>）ですが、そのような移送の作り方として<strong>焦点部分群</strong>で割った剰余群への移送があります。</p>
+    <p><code>$K&lt;H&lt;G$</code>を部分群の列としたとき、たとえば「<code>$K\lhd G$</code>ならば<code>$K\lhd H$</code>」ですが逆は一般に成り立ちません。こういう部分群と正規部分群のちょっと紛らわしい例をまとめておきます。</p>
 
-<p>群<code>$G$</code>の部分群<code>$H$</code>が与えられたとき、<code>\[H^\ast=H^\ast_G=\mathrm{Foc}_G(H):=\langle h^{-1}h'\mid h'=h^g, \ h,h'\in H, \ g\in G\rangle\]</code>を<code>$H$</code>の焦点部分群という。</p>
+<h3 id="例1-大丈夫なところ以外全部だめ">例1: 大丈夫なところ以外全部だめ</h3>
 
-<p>定理1: <code>$H^\ast\lhd H$</code>で、<code>$H/H^\ast$</code>は可換群である。</p>
+<p>以下の命題では<code>$K&lt;H&lt;G$</code>を群とします。</p>
 
-<p>証明: 任意の<code>$h,h'\in H$</code>に対して<code>$[h,h']=h^{-1}h'^{-1}hh'=h^{-1}h'^h\in H^\ast$</code>なので、<code>$[H,H]&lt;H^\ast$</code>が成り立つ。したがって主張が従う。</p>
+<p>命題1: <code>$K\lhd G$</code>ならば<code>$K\lhd H$</code>である。</p>
 
-<p>定理2: <code>$H^\ast&lt;K&lt;H$</code>を満たす部分群<code>$K$</code>に対して、（<code>$K\lhd H$</code>で、<code>$H/K$</code>は可換群なので）移送を<code>$V\colon G\to H/K$</code>と書くと、任意の<code>$h\in H$</code>に対して<code>$V(h)=h^{[G:H]}K$</code>が成り立つ。</p>
+<p>証明: <code>$K\lhd G$</code>なので、任意の<code>$g\in G$</code>に対して<code>$K^g=K$</code>である。特に任意の<code>$h\in H$</code>に対して<code>$K^h=K$</code>なので<code>$K\lhd H$</code>が成り立つ。［命題1の証明終わり］</p>
 
-<p>（証明はあとで追記します）</p>
+<p>命題2: <code>$K\lhd H\lhd G$</code>ならば<code>$K\lhd G$</code>である<strong>とは限らない</strong>。</p>
+
+<p>証明: <code>$C_2\lhd V_4\lhd A_4$</code>だが<code>$C_2\lhd A_4$</code>ではない。［命題2の証明終わり］<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>命題3: <code>$K\lhd G \ (,K\lhd H)$</code>ならば<code>$H\lhd G$</code>である<strong>とは限らない</strong>。</p>
+
+<p>証明: <code>$1\lhd C_2, \ 1\lhd A_4$</code>だが<code>$C_2\lhd A_4$</code>ではない。［命題3の証明終わり］<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>命題4: <code>$H\lhd G$</code>ならば<code>$K\lhd H$</code>である<strong>とは限らない</strong>。</p>
+
+<p>証明: <code>$A_4\lhd S_4$</code>だが<code>$C_2\lhd A_4$</code>ではない。［命題4の証明終わり］<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p><code>$C_2\not\lhd A_4$</code>が全部の反例になっています。</p>
+
+<h3 id="例2-特定の条件で成り立つ場合もある">例2: 特定の条件で成り立つ場合もある</h3>
+
+<p>命題5: <code>$G$</code>が可換群なら、<code>$K\lhd H\lhd G$</code>である。</p>
+
+<p>命題6: <code>$H$</code>が可換群なら、<code>$K\lhd H$</code>である。</p>
+
+<p>（あとで追記します）</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1"><code>$A_4$</code>の部分群の構造は<a href="https://groupprops.subwiki.org/wiki/File:A4latticeofsubgroups.png">ここ</a>にあります
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
   </section>
   <footer>
     
@@ -111,31 +138,16 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://ritosonn.github.io/su-shiki/anime/endro/">Older</a>
+          <a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">Older</a>
           
         </div>
       </div>
     </nav>
     
-
-<section class="p-related">
-  <h3>See Also</h3>
-  <ul id="slider" class="p-related__list">
-    
-    <li class="p-related__item js-related__item">
-      <a href="/su-shiki/group-theory/transfer-definition/"
-        >
-        <span>移送の定義</span>
-      </a>
-    </li>
-    
-  </ul>
-</section>
 
 
     
