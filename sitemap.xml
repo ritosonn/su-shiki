@@ -66,13 +66,13 @@
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/categories/hugo/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/tags/hugo/</loc>
     <lastmod>2019-04-06T01:21:39+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/tags/hugo/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/categories/hugo/</loc>
     <lastmod>2019-04-06T01:21:39+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -90,13 +90,13 @@
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
     <lastmod>2019-04-07T00:59:07+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
     <lastmod>2019-04-07T00:59:07+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -127,7 +127,13 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/categories/%E7%BE%A4%E8%AB%96/</loc>
-    <lastmod>2019-04-08T00:29:03+09:00</lastmod>
+    <lastmod>2019-04-10T00:00:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E7%BE%A4%E8%AB%96%E3%81%AE%E5%9F%BA%E7%A4%8E/</loc>
+    <lastmod>2019-04-10T00:00:11+09:00</lastmod>
     <priority>0</priority>
   </url>
   
