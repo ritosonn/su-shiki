@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>圏論 on 数と式</title>
+    <link>https://ritosonn.github.io/su-shiki/categories/%E5%9C%8F%E8%AB%96/</link>
+    <description>Recent content in 圏論 on 数と式</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 14 Apr 2019 23:00:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://ritosonn.github.io/su-shiki/categories/%E5%9C%8F%E8%AB%96/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>図式をつなげたり分けたり</title>
+      <link>https://ritosonn.github.io/su-shiki/category-theory/diagram-combine-example/</link>
+      <pubDate>Sun, 14 Apr 2019 23:00:04 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/category-theory/diagram-combine-example/</guid>
+      <description>&lt;p&gt;図式の一部の可換性から他の部分の可換性が従うか、についてまとめます。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

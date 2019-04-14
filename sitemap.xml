@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/category-theory/diagram-combine-example/</loc>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/group-theory/subgroup-of-subgroup/</loc>
     <lastmod>2019-04-10T00:00:11+09:00</lastmod>
   </url>
@@ -60,6 +65,12 @@
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/category-theory/</loc>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/group-theory/</loc>
     <lastmod>2019-04-10T00:00:11+09:00</lastmod>
     <priority>0</priority>
@@ -108,8 +119,20 @@
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E5%9C%8F%E8%AB%96/</loc>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/categories/%E5%9C%8F%E8%AB%96/</loc>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-04-10T00:00:11+09:00</lastmod>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
