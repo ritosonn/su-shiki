@@ -95,15 +95,49 @@
   <section id="js-article" class="p-article__body">
     <p>可換群は「移送がべき乗になる群」の例（<a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-example/">参照</a>）ですが、そのような移送の作り方として<strong>焦点部分群</strong>で割った剰余群への移送があります。</p>
 
+<hr />
+
 <p>群<code>$G$</code>の部分群<code>$H$</code>が与えられたとき、<code>\[H^\ast=H^\ast_G=\mathrm{Foc}_G(H):=\langle h^{-1}h'\mid h'=h^g, \ h,h'\in H, \ g\in G\rangle\]</code>を<code>$H$</code>の焦点部分群という。</p>
 
 <p>定理1: <code>$H^\ast\lhd H$</code>で、<code>$H/H^\ast$</code>は可換群である。</p>
 
-<p>証明: 任意の<code>$h,h'\in H$</code>に対して<code>$[h,h']=h^{-1}h'^{-1}hh'=h^{-1}h'^h\in H^\ast$</code>なので、<code>$[H,H]&lt;H^\ast$</code>が成り立つ。したがって主張が従う。</p>
+<p>証明: 任意の<code>$h,h'\in H$</code>に対して<code>$[h,h']=h^{-1}h'^{-1}hh'=h^{-1}h'^h\in H^\ast$</code>なので、<code>$[H,H]&lt;H^\ast$</code>が成り立つ。「<code>$K&lt;H&lt;G, K\lhd G, H/K$</code>が可換ならば<code>$H\lhd G, G/H$</code>も可換（<a href="https://ritosonn.github.io/su-shiki/group-theory/subgroup-of-subgroup/">ここ</a>の命題7）」なので主張が従う。［定理1の証明終わり］</p>
 
 <p>定理2: <code>$H^\ast&lt;K&lt;H$</code>を満たす部分群<code>$K$</code>に対して、（<code>$K\lhd H$</code>で、<code>$H/K$</code>は可換群なので）移送を<code>$V\colon G\to H/K$</code>と書くと、任意の<code>$h\in H$</code>に対して<code>$V(h)=h^{[G:H]}K$</code>が成り立つ。</p>
 
-<p>（証明はあとで追記します）</p>
+<p>証明: （方針：移送の定義は<code>$H&lt;G$</code>の右剰余類の代表系<code>$T$</code>のとりかたによらない（<a href="https://ritosonn.github.io/su-shiki/group-theory/transfer-definition/">証明</a>）ので、計算が上手くいくような<code>$T$</code>を定義する）</p>
+
+<p>まず、<code>$x\in \langle h\rangle$</code>に対して<code>$(tH)^x:=x^{-1}tH$</code>とおくと、これは<code>$\Gamma=\{tH\mid t\in G\}$</code>上の作用である。<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>この作用の軌道を<code>$O_1,\ldots,O_s$</code>と書き、代表元<code>$t_iH\in O_i$</code>をとる。すると、<code>$e_i:=|O_i|$</code>として<code>\[O_i=\{t_iH,ht_iH,h^2t_iH,\ldots,h^{e_i-1}t_iH\}\]</code>であり、<code>$t_iH=h^{e_i}t_iH$</code>が成り立つ。つまり<code>$(h^{e_i})^{t_i}\in H$</code>である。</p>
+
+<p>これと<code>$h^{e_i}\in H$</code>をあわせると、<code>$(h^{e_i})^{-1}(h^{e_i})^{t_i}\in H^\ast&lt;K$</code>つまり<code>$(h^{e_i})^{t_i}K=h^{e_i}K$</code>（※）が成り立つ。</p>
+
+<p>さて、<code>$T=\{h^mt_i\mid i=1,2,\ldots,s, \ m=0,1,\ldots,e_i-1\}$</code>を代表系とする移送を計算したい。</p>
+
+<ul>
+<li><code>$h\cdot h^m t_i=h^{m+1}t_i\cdot 1$</code>（<code>$m=0,1,\ldots,e_i-2$</code>）</li>
+<li><code>$h\cdot h^{e_i-1}t_i=h^{e_i}t_i=t_i(h^{e_i})^{t_i}$</code></li>
+</ul>
+
+<p>なので、</p>
+
+<p><code>\[V(h)=\prod_{i=1}^s\left((h^{e_i})^{t_i}K\cdot \prod_{m=0}^{e_i-2}K\right)=\prod_{i=1}^s (h^{e_i})^{t_i}K\]</code></p>
+
+<p>である。ここで（※）より</p>
+
+<p><code>\[V(h)=\prod_{i=1}^s h^{e_i}K=h^{\sum_i e_i} K=h^{|G:H|}K\]</code></p>
+
+<p>となり、主張が従う。［定理2の証明終わり］</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">ここでは「群論」（鈴木通夫 著）に倣って右作用なので、左側から積をとると<code>$-1$</code>乗がつきます…
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
   </section>
   <footer>
     
