@@ -6,10 +6,19 @@
     <description>Recent content on 数と式</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Apr 2019 23:27:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 23:40:58 +0900</lastBuildDate>
     
 	<atom:link href="https://ritosonn.github.io/su-shiki/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>むすんで、つないで。の話</title>
+      <link>https://ritosonn.github.io/su-shiki/manga/musunde/</link>
+      <pubDate>Tue, 09 Jul 2019 23:40:58 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/manga/musunde/</guid>
+      <description>&lt;p&gt;発売日にすべてがネタバレっぽいものをTwitterに上げるのはためらわれるなあ、と思っていたが、こういうときにブログを使えばいいということに気づいた&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Higmanの定理</title>

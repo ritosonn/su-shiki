@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mangas on 数と式</title>
+    <link>https://ritosonn.github.io/su-shiki/manga/</link>
+    <description>Recent content in Mangas on 数と式</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 09 Jul 2019 23:40:58 +0900</lastBuildDate>
+    
+	<atom:link href="https://ritosonn.github.io/su-shiki/manga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>むすんで、つないで。の話</title>
+      <link>https://ritosonn.github.io/su-shiki/manga/musunde/</link>
+      <pubDate>Tue, 09 Jul 2019 23:40:58 +0900</pubDate>
+      
+      <guid>https://ritosonn.github.io/su-shiki/manga/musunde/</guid>
+      <description>&lt;p&gt;発売日にすべてがネタバレっぽいものをTwitterに上げるのはためらわれるなあ、と思っていたが、こういうときにブログを使えばいいということに気づいた&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

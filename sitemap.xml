@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/manga/musunde/</loc>
+    <lastmod>2019-07-09T23:40:58+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/group-theory/transfer-higman/</loc>
     <lastmod>2019-04-22T23:27:07+09:00</lastmod>
   </url>
@@ -100,6 +105,12 @@
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/manga/</loc>
+    <lastmod>2019-07-09T23:40:58+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/tags/</loc>
     <lastmod>2019-04-07T00:59:07+09:00</lastmod>
     <priority>0</priority>
@@ -137,7 +148,7 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-04-22T23:27:07+09:00</lastmod>
+    <lastmod>2019-07-09T23:40:58+09:00</lastmod>
     <priority>0</priority>
   </url>
   
