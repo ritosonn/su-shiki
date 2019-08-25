@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/anime/potte/</loc>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/manga/musunde/</loc>
     <lastmod>2019-07-09T23:40:58+09:00</lastmod>
   </url>
@@ -65,7 +70,7 @@
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/anime/</loc>
-    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,13 +92,13 @@
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/tags/hugo/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/categories/hugo/</loc>
     <lastmod>2019-04-06T01:21:39+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/categories/hugo/</loc>
+    <loc>https://ritosonn.github.io/su-shiki/tags/hugo/</loc>
     <lastmod>2019-04-06T01:21:39+09:00</lastmod>
     <priority>0</priority>
   </url>
@@ -117,14 +122,20 @@
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89/</loc>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ritosonn.github.io/su-shiki/categories/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
-    <lastmod>2019-04-07T00:59:07+09:00</lastmod>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E3%82%A2%E3%83%8B%E3%83%A1/</loc>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -135,20 +146,20 @@
   </url>
   
   <url>
-    <loc>https://ritosonn.github.io/su-shiki/tags/%E5%9C%8F%E8%AB%96/</loc>
-    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ritosonn.github.io/su-shiki/categories/%E5%9C%8F%E8%AB%96/</loc>
     <lastmod>2019-04-14T23:00:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://ritosonn.github.io/su-shiki/tags/%E5%9C%8F%E8%AB%96/</loc>
+    <lastmod>2019-04-14T23:00:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ritosonn.github.io/su-shiki/</loc>
-    <lastmod>2019-07-09T23:40:58+09:00</lastmod>
+    <lastmod>2019-08-26T01:37:20+09:00</lastmod>
     <priority>0</priority>
   </url>
   
